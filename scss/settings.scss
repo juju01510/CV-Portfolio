@@ -1,0 +1,124 @@
+//Font------------------------------------------------------------------------------
+
+@font-face {
+	font-family: "poppinsregular";
+	src: url("../fonts/Poppins/Webkit/poppins-regular-webfont.woff2") format("woff2"),
+		url("../fonts/Poppins/Webkit/poppins-regular-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+//Colours------------------------------------------------------------------------------
+
+$primary-font: "poppinsregular";
+$primary-color: #111d4a;
+$secondary-color: rgb(194, 202, 232);
+$tertiary-color: #8380b6;
+$quaternary-color: #8789c0;
+
+//Reset------------------------------------------------------------------------------
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	vertical-align: baseline;
+	font-size: 16px;
+	text-decoration: none;
+    box-sizing: border-box;
+}
+
+//Scrollbar----------------------------------------------------------------
+
+/* Works on Firefox */
+* {
+	scrollbar-width: thin;
+	scrollbar-color: $primary-color $secondary-color;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+	background: $secondary-color;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: $primary-color;
+	border-radius: 20px;
+	border: 3px solid $secondary-color;
+}
+
+//Keyframes----------------------------------------------------------------
+
+@keyframes name {
+    0% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes line {
+    0% {
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateX(150px);
+    }
+
+    75% {
+        transform: translateX(-50px);
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes work {
+    0% {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes stage {
+    0% {
+        transform: translateY(2000px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes next {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
