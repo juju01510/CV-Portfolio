@@ -141,7 +141,6 @@ body {
 			height: 10vh;
 			position: sticky;
 			top: 0px;
-			z-index: 1;
 
 			a {
 				color: $secondary-color;
@@ -173,7 +172,6 @@ body {
 					display: flex;
 					justify-content: center;
 					align-items: center;
-					z-index: 2;
 
 					img {
 						width: 100%;
@@ -190,7 +188,6 @@ body {
 					height: 100%;
 					color: $secondary-color;
 					padding: 0em 1em 3em 6em;
-					z-index: 2;
 
 					h2 {
 						font-size: 4em;
