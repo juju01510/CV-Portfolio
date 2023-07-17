@@ -258,11 +258,17 @@ body {
 	.about-mobile {
 		display: none !important;
 	}
+	.btn-about-mobile {
+		display: none !important;
+	}
 }
 
 @media (max-width: 1000px) {
 	.next {
 		visibility: hidden !important;
+	}
+	.btn-about {
+		display: none !important;
 	}
 
 	.about {
