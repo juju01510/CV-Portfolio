@@ -71,8 +71,10 @@ body {
 					}
 
 					.btn-grad:hover {
-						background-position: right center;
-						text-decoration: none;
+						@media (min-width: 1000px) {
+							background-position: right center;
+							text-decoration: none;
+						}
 					}
 				}
 
